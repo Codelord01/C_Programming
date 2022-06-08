@@ -1,6 +1,10 @@
 #include<stdio.h>
 
 int main(void){
-	printf("My name is: %s %s %s and my age is %d.\n", "David" , "Awuni" , "Ababio" , 20);
+	char f, m, l;
+	int age;
+	printf("Input your initials, followed by your age: \n");
+	scanf("%c %c %c %d", &f , &m, &l, &age);
+	printf("My name is: %c %c %c and my age is %d.\n", f ,m ,l , age);
 	return 0;
 }
